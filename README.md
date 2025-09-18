@@ -79,8 +79,8 @@ Here’s how to use this repository:
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/adnanphp/Hybrid-Quantum-Classical.git
+   cd Hybrid-Quantum-Classical
    ```
 
 2. **Prepare data**
