@@ -1,0 +1,942 @@
+============================================================
+TRAINING ON STL10 DATASET
+============================================================
+
+===== VISUALIZING DATASET =====
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..1.73915].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..1.6668763].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1256242].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.076185].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..1.2476891].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..1.9147061].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1438825].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.565441..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.2791952..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3695886..1.2476891].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7010312..1.9147061].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.5458409..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.6833861..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3624471..2.1438825].
+Using default qubit simulator
+
+===== STARTING TRAINING =====
+Dataset: STL10
+Device: cpu
+Hybrid Model params: 4603298
+Classical Model params: 1687306
+
+
+=== Epoch 1/50 ===
+Epoch [1/50], Hybrid Train Loss: 2.2363
+  Training Resources - Time: 48.99s, CPU: 49.2%, Memory: 3.20GB
+Epoch [1/50], Hybrid Val Loss: 0.0332, Accuracy: 19.06%, Precision: 0.1906, Recall: 0.1906, F1: 0.1906
+✨ Hybrid validation improved to 19.06%
+Epoch [1/50], Classical Train Loss: 1.9631
+  Training Resources - Time: 115.52s, CPU: 7.5%, Memory: 3.15GB
+Epoch [1/50], Classical Val Loss: 0.0290, Accuracy: 32.86%, Precision: 0.3286, Recall: 0.3286, F1: 0.3286
+✨ Classical validation improved to 32.86%
+
+Epoch 1 Summary:
+  Hybrid - Loss: 2.2363/0.0332, Acc: 19.06%
+  Classical - Loss: 1.9631/0.0290, Acc: 32.86%
+  Resources - Hybrid: 48.99s, Classical: 115.52s
+==================================================
+
+
+=== Epoch 2/50 ===
+Epoch [2/50], Hybrid Train Loss: 2.0438
+  Training Resources - Time: 54.89s, CPU: 2.0%, Memory: 3.20GB
+Epoch [2/50], Hybrid Val Loss: 0.0303, Accuracy: 32.62%, Precision: 0.3262, Recall: 0.3262, F1: 0.3262
+✨ Hybrid validation improved to 32.62%
+Epoch [2/50], Classical Train Loss: 1.8130
+  Training Resources - Time: 114.91s, CPU: -3.3%, Memory: 3.19GB
+Epoch [2/50], Classical Val Loss: 0.0299, Accuracy: 32.09%, Precision: 0.3209, Recall: 0.3209, F1: 0.3209
+
+Epoch 2 Summary:
+  Hybrid - Loss: 2.0438/0.0303, Acc: 32.62%
+  Classical - Loss: 1.8130/0.0299, Acc: 32.09%
+  Resources - Hybrid: 54.89s, Classical: 114.91s
+==================================================
+
+
+=== Epoch 3/50 ===
+Epoch [3/50], Hybrid Train Loss: 1.8853
+  Training Resources - Time: 42.79s, CPU: -7.3%, Memory: 3.47GB
+Epoch [3/50], Hybrid Val Loss: 0.0278, Accuracy: 40.06%, Precision: 0.4006, Recall: 0.4006, F1: 0.4006
+✨ Hybrid validation improved to 40.06%
+Epoch [3/50], Classical Train Loss: 1.8061
+  Training Resources - Time: 106.82s, CPU: 3.9%, Memory: 3.60GB
+Epoch [3/50], Classical Val Loss: 0.0284, Accuracy: 35.15%, Precision: 0.3515, Recall: 0.3515, F1: 0.3515
+✨ Classical validation improved to 35.15%
+
+Epoch 3 Summary:
+  Hybrid - Loss: 1.8853/0.0278, Acc: 40.06%
+  Classical - Loss: 1.8061/0.0284, Acc: 35.15%
+  Resources - Hybrid: 42.79s, Classical: 106.82s
+==================================================
+
+
+=== Epoch 4/50 ===
+Epoch [4/50], Hybrid Train Loss: 1.7704
+  Training Resources - Time: 42.51s, CPU: 2.5%, Memory: 3.48GB
+Epoch [4/50], Hybrid Val Loss: 0.0270, Accuracy: 39.66%, Precision: 0.3966, Recall: 0.3966, F1: 0.3966
+Epoch [4/50], Classical Train Loss: 1.7330
+  Training Resources - Time: 103.12s, CPU: -4.1%, Memory: 3.82GB
+Epoch [4/50], Classical Val Loss: 0.0335, Accuracy: 30.45%, Precision: 0.3045, Recall: 0.3045, F1: 0.3045
+
+Epoch 4 Summary:
+  Hybrid - Loss: 1.7704/0.0270, Acc: 39.66%
+  Classical - Loss: 1.7330/0.0335, Acc: 30.45%
+  Resources - Hybrid: 42.51s, Classical: 103.12s
+==================================================
+
+
+=== Epoch 5/50 ===
+Epoch [5/50], Hybrid Train Loss: 1.7150
+  Training Resources - Time: 41.51s, CPU: -0.6%, Memory: 3.69GB
+Epoch [5/50], Hybrid Val Loss: 0.0256, Accuracy: 46.73%, Precision: 0.4672, Recall: 0.4672, F1: 0.4672
+✨ Hybrid validation improved to 46.73%
+Epoch [5/50], Classical Train Loss: 1.7182
+  Training Resources - Time: 96.04s, CPU: -3.6%, Memory: 3.87GB
+Epoch [5/50], Classical Val Loss: 0.0299, Accuracy: 31.89%, Precision: 0.3189, Recall: 0.3189, F1: 0.3189
+Adversarial Robustness (ε=0.1): 2.75%
+Adversarial Robustness (ε=0.1): 10.41%
+
+Epoch 5 Summary:
+  Hybrid - Loss: 1.7150/0.0256, Acc: 46.73%
+  Classical - Loss: 1.7182/0.0299, Acc: 31.89%
+  Resources - Hybrid: 41.51s, Classical: 96.04s
+==================================================
+
+
+=== Epoch 6/50 ===
+Epoch [6/50], Hybrid Train Loss: 1.6337
+  Training Resources - Time: 44.74s, CPU: 4.6%, Memory: 4.18GB
+Epoch [6/50], Hybrid Val Loss: 0.0264, Accuracy: 43.19%, Precision: 0.4803, Recall: 0.4319, F1: 0.4117
+Epoch [6/50], Classical Train Loss: 1.6995
+  Training Resources - Time: 107.57s, CPU: -13.8%, Memory: 4.05GB
+Epoch [6/50], Classical Val Loss: 0.0459, Accuracy: 22.14%, Precision: 0.2421, Recall: 0.2214, F1: 0.1382
+
+Epoch 6 Summary:
+  Hybrid - Loss: 1.6337/0.0264, Acc: 43.19%
+  Classical - Loss: 1.6995/0.0459, Acc: 22.14%
+  Resources - Hybrid: 44.74s, Classical: 107.57s
+==================================================
+
+
+=== Epoch 7/50 ===
+Epoch [7/50], Hybrid Train Loss: 1.5848
+  Training Resources - Time: 45.02s, CPU: 3.9%, Memory: 4.07GB
+Epoch [7/50], Hybrid Val Loss: 0.0276, Accuracy: 41.65%, Precision: 0.4716, Recall: 0.4165, F1: 0.3937
+Epoch [7/50], Classical Train Loss: 1.6680
+  Training Resources - Time: 107.81s, CPU: -9.4%, Memory: 4.17GB
+Epoch [7/50], Classical Val Loss: 0.0280, Accuracy: 39.06%, Precision: 0.4729, Recall: 0.3906, F1: 0.3756
+✨ Classical validation improved to 39.06%
+
+Epoch 7 Summary:
+  Hybrid - Loss: 1.5848/0.0276, Acc: 41.65%
+  Classical - Loss: 1.6680/0.0280, Acc: 39.06%
+  Resources - Hybrid: 45.02s, Classical: 107.81s
+==================================================
+
+
+=== Epoch 8/50 ===
+Epoch [8/50], Hybrid Train Loss: 1.5672
+  Training Resources - Time: 43.13s, CPU: 0.3%, Memory: 4.08GB
+Epoch [8/50], Hybrid Val Loss: 0.0262, Accuracy: 46.06%, Precision: 0.4415, Recall: 0.4606, F1: 0.4279
+Epoch [8/50], Classical Train Loss: 1.6347
+  Training Resources - Time: 101.11s, CPU: -1.3%, Memory: 4.26GB
+Epoch [8/50], Classical Val Loss: 0.0375, Accuracy: 26.25%, Precision: 0.3977, Recall: 0.2625, F1: 0.1933
+
+Epoch 8 Summary:
+  Hybrid - Loss: 1.5672/0.0262, Acc: 46.06%
+  Classical - Loss: 1.6347/0.0375, Acc: 26.25%
+  Resources - Hybrid: 43.13s, Classical: 101.11s
+==================================================
+
+
+=== Epoch 9/50 ===
+Epoch [9/50], Hybrid Train Loss: 1.5312
+  Training Resources - Time: 53.33s, CPU: 6.6%, Memory: 4.09GB
+Epoch [9/50], Hybrid Val Loss: 0.0262, Accuracy: 45.77%, Precision: 0.5076, Recall: 0.4577, F1: 0.4378
+Epoch [9/50], Classical Train Loss: 1.6392
+  Training Resources - Time: 123.79s, CPU: 0.7%, Memory: 4.75GB
+Epoch [9/50], Classical Val Loss: 0.0309, Accuracy: 31.24%, Precision: 0.4019, Recall: 0.3124, F1: 0.2547
+
+Epoch 9 Summary:
+  Hybrid - Loss: 1.5312/0.0262, Acc: 45.77%
+  Classical - Loss: 1.6392/0.0309, Acc: 31.24%
+  Resources - Hybrid: 53.33s, Classical: 123.79s
+==================================================
+
+
+=== Epoch 10/50 ===
+Epoch [10/50], Hybrid Train Loss: 1.5152
+  Training Resources - Time: 54.66s, CPU: 3.1%, Memory: 4.56GB
+Epoch [10/50], Hybrid Val Loss: 0.0251, Accuracy: 49.15%, Precision: 0.5027, Recall: 0.4915, F1: 0.4474
+✨ Hybrid validation improved to 49.15%
+Epoch [10/50], Classical Train Loss: 1.6001
+  Training Resources - Time: 124.48s, CPU: -3.9%, Memory: 4.79GB
+Epoch [10/50], Classical Val Loss: 0.0307, Accuracy: 33.51%, Precision: 0.4672, Recall: 0.3351, F1: 0.3210
+Adversarial Robustness (ε=0.1): 5.58%
+Adversarial Robustness (ε=0.1): 5.05%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+Epoch 10 Summary:
+  Hybrid - Loss: 1.5152/0.0251, Acc: 49.15%
+  Classical - Loss: 1.6001/0.0307, Acc: 33.51%
+  Resources - Hybrid: 54.66s, Classical: 124.48s
+==================================================
+
+
+=== Epoch 11/50 ===
+Epoch [11/50], Hybrid Train Loss: 1.5034
+  Training Resources - Time: 39.01s, CPU: -3.1%, Memory: 2.14GB
+Epoch [11/50], Hybrid Val Loss: 0.0274, Accuracy: 44.84%, Precision: 0.5038, Recall: 0.4484, F1: 0.4145
+Epoch [11/50], Classical Train Loss: 1.6077
+  Training Resources - Time: 87.92s, CPU: -4.9%, Memory: 2.23GB
+Epoch [11/50], Classical Val Loss: 0.0287, Accuracy: 34.76%, Precision: 0.4018, Recall: 0.3476, F1: 0.2756
+
+Epoch 11 Summary:
+  Hybrid - Loss: 1.5034/0.0274, Acc: 44.84%
+  Classical - Loss: 1.6077/0.0287, Acc: 34.76%
+  Resources - Hybrid: 39.01s, Classical: 87.92s
+==================================================
+
+
+=== Epoch 12/50 ===
+Epoch [12/50], Hybrid Train Loss: 1.4848
+  Training Resources - Time: 38.68s, CPU: -1.2%, Memory: 2.11GB
+Epoch [12/50], Hybrid Val Loss: 0.0246, Accuracy: 51.46%, Precision: 0.5311, Recall: 0.5146, F1: 0.4896
+✨ Hybrid validation improved to 51.46%
+Epoch [12/50], Classical Train Loss: 1.6324
+  Training Resources - Time: 88.06s, CPU: -4.3%, Memory: 2.17GB
+Epoch [12/50], Classical Val Loss: 0.0294, Accuracy: 35.85%, Precision: 0.4565, Recall: 0.3585, F1: 0.3153
+
+Epoch 12 Summary:
+  Hybrid - Loss: 1.4848/0.0246, Acc: 51.46%
+  Classical - Loss: 1.6324/0.0294, Acc: 35.85%
+  Resources - Hybrid: 38.68s, Classical: 88.06s
+==================================================
+
+
+=== Epoch 13/50 ===
+Epoch [13/50], Hybrid Train Loss: 1.4191
+  Training Resources - Time: 38.76s, CPU: -1.3%, Memory: 2.11GB
+Epoch [13/50], Hybrid Val Loss: 0.0270, Accuracy: 46.60%, Precision: 0.5480, Recall: 0.4660, F1: 0.4354
+Epoch [13/50], Classical Train Loss: 1.5836
+  Training Resources - Time: 87.87s, CPU: -4.3%, Memory: 2.19GB
+Epoch [13/50], Classical Val Loss: 0.0262, Accuracy: 45.10%, Precision: 0.4700, Recall: 0.4510, F1: 0.4486
+✨ Classical validation improved to 45.10%
+
+Epoch 13 Summary:
+  Hybrid - Loss: 1.4191/0.0270, Acc: 46.60%
+  Classical - Loss: 1.5836/0.0262, Acc: 45.10%
+  Resources - Hybrid: 38.76s, Classical: 87.87s
+==================================================
+
+
+=== Epoch 14/50 ===
+Epoch [14/50], Hybrid Train Loss: 1.3869
+  Training Resources - Time: 38.78s, CPU: -1.1%, Memory: 2.25GB
+Epoch [14/50], Hybrid Val Loss: 0.0242, Accuracy: 54.35%, Precision: 0.5859, Recall: 0.5435, F1: 0.5260
+✨ Hybrid validation improved to 54.35%
+Epoch [14/50], Classical Train Loss: 1.5840
+  Training Resources - Time: 87.68s, CPU: -4.1%, Memory: 2.18GB
+Epoch [14/50], Classical Val Loss: 0.0289, Accuracy: 40.91%, Precision: 0.5024, Recall: 0.4091, F1: 0.3821
+
+Epoch 14 Summary:
+  Hybrid - Loss: 1.3869/0.0242, Acc: 54.35%
+  Classical - Loss: 1.5840/0.0289, Acc: 40.91%
+  Resources - Hybrid: 38.78s, Classical: 87.68s
+==================================================
+
+
+=== Epoch 15/50 ===
+Epoch [15/50], Hybrid Train Loss: 1.3746
+  Training Resources - Time: 38.77s, CPU: -1.3%, Memory: 2.17GB
+Epoch [15/50], Hybrid Val Loss: 0.0251, Accuracy: 49.58%, Precision: 0.6190, Recall: 0.4958, F1: 0.4922
+Epoch [15/50], Classical Train Loss: 1.5665
+  Training Resources - Time: 88.01s, CPU: -4.4%, Memory: 2.23GB
+Epoch [15/50], Classical Val Loss: 0.0278, Accuracy: 41.24%, Precision: 0.5213, Recall: 0.4124, F1: 0.3876
+Adversarial Robustness (ε=0.1): 6.65%
+Adversarial Robustness (ε=0.1): 6.36%
+
+Epoch 15 Summary:
+  Hybrid - Loss: 1.3746/0.0251, Acc: 49.58%
+  Classical - Loss: 1.5665/0.0278, Acc: 41.24%
+  Resources - Hybrid: 38.77s, Classical: 88.01s
+==================================================
+
+
+=== Epoch 16/50 ===
+Epoch [16/50], Hybrid Train Loss: 1.3391
+  Training Resources - Time: 39.04s, CPU: -0.6%, Memory: 2.31GB
+Epoch [16/50], Hybrid Val Loss: 0.0218, Accuracy: 61.42%, Precision: 0.6295, Recall: 0.6142, F1: 0.6144
+✨ Hybrid validation improved to 61.42%
+Epoch [16/50], Classical Train Loss: 1.5611
+  Training Resources - Time: 88.65s, CPU: -4.2%, Memory: 2.16GB
+Epoch [16/50], Classical Val Loss: 0.0364, Accuracy: 30.00%, Precision: 0.4359, Recall: 0.3000, F1: 0.2305
+
+Epoch 16 Summary:
+  Hybrid - Loss: 1.3391/0.0218, Acc: 61.42%
+  Classical - Loss: 1.5611/0.0364, Acc: 30.00%
+  Resources - Hybrid: 39.04s, Classical: 88.65s
+==================================================
+
+
+=== Epoch 17/50 ===
+Epoch [17/50], Hybrid Train Loss: 1.2942
+  Training Resources - Time: 39.02s, CPU: -1.1%, Memory: 2.11GB
+Epoch [17/50], Hybrid Val Loss: 0.0237, Accuracy: 56.55%, Precision: 0.5964, Recall: 0.5655, F1: 0.5492
+Epoch [17/50], Classical Train Loss: 1.5131
+  Training Resources - Time: 88.38s, CPU: -4.2%, Memory: 2.19GB
+Epoch [17/50], Classical Val Loss: 0.0264, Accuracy: 44.38%, Precision: 0.5243, Recall: 0.4437, F1: 0.4156
+
+Epoch 17 Summary:
+  Hybrid - Loss: 1.2942/0.0237, Acc: 56.55%
+  Classical - Loss: 1.5131/0.0264, Acc: 44.38%
+  Resources - Hybrid: 39.02s, Classical: 88.38s
+==================================================
+
+
+=== Epoch 18/50 ===
+Epoch [18/50], Hybrid Train Loss: 1.2791
+  Training Resources - Time: 38.82s, CPU: -1.1%, Memory: 2.12GB
+Epoch [18/50], Hybrid Val Loss: 0.0236, Accuracy: 56.46%, Precision: 0.5872, Recall: 0.5646, F1: 0.5370
+Epoch [18/50], Classical Train Loss: 1.5057
+  Training Resources - Time: 87.76s, CPU: -4.3%, Memory: 2.09GB
+Epoch [18/50], Classical Val Loss: 0.0265, Accuracy: 44.30%, Precision: 0.5530, Recall: 0.4430, F1: 0.4313
+
+Epoch 18 Summary:
+  Hybrid - Loss: 1.2791/0.0236, Acc: 56.46%
+  Classical - Loss: 1.5057/0.0265, Acc: 44.30%
+  Resources - Hybrid: 38.82s, Classical: 87.76s
+==================================================
+
+
+=== Epoch 19/50 ===
+Epoch [19/50], Hybrid Train Loss: 1.2449
+  Training Resources - Time: 38.79s, CPU: -1.2%, Memory: 2.05GB
+Epoch [19/50], Hybrid Val Loss: 0.0219, Accuracy: 59.80%, Precision: 0.6058, Recall: 0.5980, F1: 0.5753
+Epoch [19/50], Classical Train Loss: 1.4754
+  Training Resources - Time: 87.48s, CPU: -4.4%, Memory: 2.29GB
+Epoch [19/50], Classical Val Loss: 0.0264, Accuracy: 44.58%, Precision: 0.4915, Recall: 0.4458, F1: 0.3958
+
+Epoch 19 Summary:
+  Hybrid - Loss: 1.2449/0.0219, Acc: 59.80%
+  Classical - Loss: 1.4754/0.0264, Acc: 44.58%
+  Resources - Hybrid: 38.79s, Classical: 87.48s
+==================================================
+
+
+=== Epoch 20/50 ===
+Epoch [20/50], Hybrid Train Loss: 1.2425
+  Training Resources - Time: 38.99s, CPU: -1.5%, Memory: 2.10GB
+Epoch [20/50], Hybrid Val Loss: 0.0233, Accuracy: 58.48%, Precision: 0.6426, Recall: 0.5847, F1: 0.5892
+Epoch [20/50], Classical Train Loss: 1.4442
+  Training Resources - Time: 87.38s, CPU: -4.3%, Memory: 2.19GB
+Epoch [20/50], Classical Val Loss: 0.0259, Accuracy: 43.70%, Precision: 0.5017, Recall: 0.4370, F1: 0.4022
+Adversarial Robustness (ε=0.1): 5.04%
+Adversarial Robustness (ε=0.1): 5.06%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+Epoch 20 Summary:
+  Hybrid - Loss: 1.2425/0.0233, Acc: 58.48%
+  Classical - Loss: 1.4442/0.0259, Acc: 43.70%
+  Resources - Hybrid: 38.99s, Classical: 87.38s
+==================================================
+
+
+=== Epoch 21/50 ===
+Epoch [21/50], Hybrid Train Loss: 1.1774
+  Training Resources - Time: 38.62s, CPU: 1.8%, Memory: 2.45GB
+Epoch [21/50], Hybrid Val Loss: 0.0221, Accuracy: 60.79%, Precision: 0.6388, Recall: 0.6079, F1: 0.5925
+Epoch [21/50], Classical Train Loss: 1.4480
+  Training Resources - Time: 86.56s, CPU: -4.8%, Memory: 2.51GB
+Epoch [21/50], Classical Val Loss: 0.0261, Accuracy: 47.11%, Precision: 0.4888, Recall: 0.4711, F1: 0.4311
+✨ Classical validation improved to 47.11%
+
+Epoch 21 Summary:
+  Hybrid - Loss: 1.1774/0.0221, Acc: 60.79%
+  Classical - Loss: 1.4480/0.0261, Acc: 47.11%
+  Resources - Hybrid: 38.62s, Classical: 86.56s
+==================================================
+
+
+=== Epoch 22/50 ===
+Epoch [22/50], Hybrid Train Loss: 1.1639
+  Training Resources - Time: 38.81s, CPU: -0.4%, Memory: 2.41GB
+Epoch [22/50], Hybrid Val Loss: 0.0208, Accuracy: 63.76%, Precision: 0.6566, Recall: 0.6376, F1: 0.6297
+✨ Hybrid validation improved to 63.76%
+Epoch [22/50], Classical Train Loss: 1.4120
+  Training Resources - Time: 86.55s, CPU: -4.6%, Memory: 2.53GB
+Epoch [22/50], Classical Val Loss: 0.0323, Accuracy: 39.34%, Precision: 0.5346, Recall: 0.3934, F1: 0.3500
+
+Epoch 22 Summary:
+  Hybrid - Loss: 1.1639/0.0208, Acc: 63.76%
+  Classical - Loss: 1.4120/0.0323, Acc: 39.34%
+  Resources - Hybrid: 38.81s, Classical: 86.55s
+==================================================
+
+
+=== Epoch 23/50 ===
+Epoch [23/50], Hybrid Train Loss: 1.1443
+  Training Resources - Time: 38.72s, CPU: -0.5%, Memory: 2.45GB
+Epoch [23/50], Hybrid Val Loss: 0.0224, Accuracy: 59.67%, Precision: 0.6226, Recall: 0.5968, F1: 0.5937
+Epoch [23/50], Classical Train Loss: 1.3874
+  Training Resources - Time: 86.21s, CPU: -4.5%, Memory: 2.55GB
+Epoch [23/50], Classical Val Loss: 0.0271, Accuracy: 46.31%, Precision: 0.5840, Recall: 0.4631, F1: 0.4487
+
+Epoch 23 Summary:
+  Hybrid - Loss: 1.1443/0.0224, Acc: 59.67%
+  Classical - Loss: 1.3874/0.0271, Acc: 46.31%
+  Resources - Hybrid: 38.72s, Classical: 86.21s
+==================================================
+
+
+=== Epoch 24/50 ===
+Epoch [24/50], Hybrid Train Loss: 1.1020
+  Training Resources - Time: 38.77s, CPU: -0.5%, Memory: 2.46GB
+Epoch [24/50], Hybrid Val Loss: 0.0216, Accuracy: 63.09%, Precision: 0.6580, Recall: 0.6309, F1: 0.6272
+Epoch [24/50], Classical Train Loss: 1.3999
+  Training Resources - Time: 86.30s, CPU: -4.5%, Memory: 2.54GB
+Epoch [24/50], Classical Val Loss: 0.0260, Accuracy: 48.09%, Precision: 0.5507, Recall: 0.4809, F1: 0.4765
+✨ Classical validation improved to 48.09%
+
+Epoch 24 Summary:
+  Hybrid - Loss: 1.1020/0.0216, Acc: 63.09%
+  Classical - Loss: 1.3999/0.0260, Acc: 48.09%
+  Resources - Hybrid: 38.77s, Classical: 86.30s
+==================================================
+
+
+=== Epoch 25/50 ===
+Epoch [25/50], Hybrid Train Loss: 1.0604
+  Training Resources - Time: 38.71s, CPU: -0.3%, Memory: 2.46GB
+Epoch [25/50], Hybrid Val Loss: 0.0212, Accuracy: 63.75%, Precision: 0.6436, Recall: 0.6375, F1: 0.6311
+Epoch [25/50], Classical Train Loss: 1.3826
+  Training Resources - Time: 85.99s, CPU: -4.5%, Memory: 2.55GB
+Epoch [25/50], Classical Val Loss: 0.0232, Accuracy: 55.27%, Precision: 0.5948, Recall: 0.5527, F1: 0.5492
+✨ Classical validation improved to 55.27%
+Adversarial Robustness (ε=0.1): 3.79%
+Adversarial Robustness (ε=0.1): 4.99%
+
+Epoch 25 Summary:
+  Hybrid - Loss: 1.0604/0.0212, Acc: 63.75%
+  Classical - Loss: 1.3826/0.0232, Acc: 55.27%
+  Resources - Hybrid: 38.71s, Classical: 85.99s
+==================================================
+
+
+=== Epoch 26/50 ===
+Epoch [26/50], Hybrid Train Loss: 1.0497
+  Training Resources - Time: 38.84s, CPU: 1.8%, Memory: 2.49GB
+Epoch [26/50], Hybrid Val Loss: 0.0215, Accuracy: 63.62%, Precision: 0.6777, Recall: 0.6363, F1: 0.6330
+Epoch [26/50], Classical Train Loss: 1.3814
+  Training Resources - Time: 86.18s, CPU: -4.5%, Memory: 2.51GB
+Epoch [26/50], Classical Val Loss: 0.0358, Accuracy: 32.35%, Precision: 0.5216, Recall: 0.3235, F1: 0.2795
+
+Epoch 26 Summary:
+  Hybrid - Loss: 1.0497/0.0215, Acc: 63.62%
+  Classical - Loss: 1.3814/0.0358, Acc: 32.35%
+  Resources - Hybrid: 38.84s, Classical: 86.18s
+==================================================
+
+
+=== Epoch 27/50 ===
+Epoch [27/50], Hybrid Train Loss: 1.0226
+  Training Resources - Time: 38.70s, CPU: -0.6%, Memory: 2.49GB
+Epoch [27/50], Hybrid Val Loss: 0.0193, Accuracy: 68.36%, Precision: 0.6945, Recall: 0.6836, F1: 0.6858
+✨ Hybrid validation improved to 68.36%
+Epoch [27/50], Classical Train Loss: 1.3523
+  Training Resources - Time: 85.85s, CPU: -4.3%, Memory: 2.49GB
+Epoch [27/50], Classical Val Loss: 0.0281, Accuracy: 39.31%, Precision: 0.5435, Recall: 0.3931, F1: 0.3550
+
+Epoch 27 Summary:
+  Hybrid - Loss: 1.0226/0.0193, Acc: 68.36%
+  Classical - Loss: 1.3523/0.0281, Acc: 39.31%
+  Resources - Hybrid: 38.70s, Classical: 85.85s
+==================================================
+
+
+=== Epoch 28/50 ===
+Epoch [28/50], Hybrid Train Loss: 0.9840
+  Training Resources - Time: 38.78s, CPU: -0.5%, Memory: 2.42GB
+Epoch [28/50], Hybrid Val Loss: 0.0212, Accuracy: 65.20%, Precision: 0.6722, Recall: 0.6520, F1: 0.6425
+Epoch [28/50], Classical Train Loss: 1.3331
+  Training Resources - Time: 85.89s, CPU: -4.5%, Memory: 2.55GB
+Epoch [28/50], Classical Val Loss: 0.0260, Accuracy: 47.80%, Precision: 0.5948, Recall: 0.4780, F1: 0.4641
+
+Epoch 28 Summary:
+  Hybrid - Loss: 0.9840/0.0212, Acc: 65.20%
+  Classical - Loss: 1.3331/0.0260, Acc: 47.80%
+  Resources - Hybrid: 38.78s, Classical: 85.89s
+==================================================
+
+
+=== Epoch 29/50 ===
+Epoch [29/50], Hybrid Train Loss: 0.9672
+  Training Resources - Time: 38.71s, CPU: -0.5%, Memory: 2.50GB
+Epoch [29/50], Hybrid Val Loss: 0.0207, Accuracy: 65.88%, Precision: 0.6594, Recall: 0.6587, F1: 0.6475
+Epoch [29/50], Classical Train Loss: 1.3337
+  Training Resources - Time: 85.87s, CPU: -4.5%, Memory: 2.52GB
+Epoch [29/50], Classical Val Loss: 0.0343, Accuracy: 37.40%, Precision: 0.5596, Recall: 0.3740, F1: 0.3089
+
+Epoch 29 Summary:
+  Hybrid - Loss: 0.9672/0.0207, Acc: 65.88%
+  Classical - Loss: 1.3337/0.0343, Acc: 37.40%
+  Resources - Hybrid: 38.71s, Classical: 85.87s
+==================================================
+
+
+=== Epoch 30/50 ===
+Epoch [30/50], Hybrid Train Loss: 0.9445
+  Training Resources - Time: 38.70s, CPU: 0.5%, Memory: 2.52GB
+Epoch [30/50], Hybrid Val Loss: 0.0199, Accuracy: 68.17%, Precision: 0.6904, Recall: 0.6817, F1: 0.6820
+Epoch [30/50], Classical Train Loss: 1.3090
+  Training Resources - Time: 85.64s, CPU: -4.6%, Memory: 2.50GB
+Epoch [30/50], Classical Val Loss: 0.0267, Accuracy: 46.52%, Precision: 0.5704, Recall: 0.4652, F1: 0.4108
+Adversarial Robustness (ε=0.1): 4.08%
+Adversarial Robustness (ε=0.1): 5.51%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+Epoch 30 Summary:
+  Hybrid - Loss: 0.9445/0.0199, Acc: 68.17%
+  Classical - Loss: 1.3090/0.0267, Acc: 46.52%
+  Resources - Hybrid: 38.70s, Classical: 85.64s
+==================================================
+
+
+=== Epoch 31/50 ===
+Epoch [31/50], Hybrid Train Loss: 0.9161
+  Training Resources - Time: 38.66s, CPU: 2.0%, Memory: 2.50GB
+Epoch [31/50], Hybrid Val Loss: 0.0193, Accuracy: 69.14%, Precision: 0.7019, Recall: 0.6914, F1: 0.6911
+✨ Hybrid validation improved to 69.14%
+Epoch [31/50], Classical Train Loss: 1.3136
+  Training Resources - Time: 86.11s, CPU: -4.5%, Memory: 2.56GB
+Epoch [31/50], Classical Val Loss: 0.0277, Accuracy: 42.96%, Precision: 0.5863, Recall: 0.4296, F1: 0.3736
+
+Epoch 31 Summary:
+  Hybrid - Loss: 0.9161/0.0193, Acc: 69.14%
+  Classical - Loss: 1.3136/0.0277, Acc: 42.96%
+  Resources - Hybrid: 38.66s, Classical: 86.11s
+==================================================
+
+
+=== Epoch 32/50 ===
+Epoch [32/50], Hybrid Train Loss: 0.8876
+  Training Resources - Time: 38.75s, CPU: -0.5%, Memory: 2.45GB
+Epoch [32/50], Hybrid Val Loss: 0.0203, Accuracy: 66.74%, Precision: 0.6971, Recall: 0.6674, F1: 0.6716
+Epoch [32/50], Classical Train Loss: 1.3028
+  Training Resources - Time: 85.70s, CPU: -4.5%, Memory: 2.51GB
+Epoch [32/50], Classical Val Loss: 0.0251, Accuracy: 51.12%, Precision: 0.5403, Recall: 0.5112, F1: 0.4643
+
+Epoch 32 Summary:
+  Hybrid - Loss: 0.8876/0.0203, Acc: 66.74%
+  Classical - Loss: 1.3028/0.0251, Acc: 51.12%
+  Resources - Hybrid: 38.75s, Classical: 85.70s
+==================================================
+
+
+=== Epoch 33/50 ===
+Epoch [33/50], Hybrid Train Loss: 0.8625
+  Training Resources - Time: 38.78s, CPU: -0.5%, Memory: 2.41GB
+Epoch [33/50], Hybrid Val Loss: 0.0194, Accuracy: 70.54%, Precision: 0.7116, Recall: 0.7054, F1: 0.7017
+✨ Hybrid validation improved to 70.54%
+Epoch [33/50], Classical Train Loss: 1.3034
+  Training Resources - Time: 85.73s, CPU: -4.4%, Memory: 2.44GB
+Epoch [33/50], Classical Val Loss: 0.0333, Accuracy: 31.12%, Precision: 0.5341, Recall: 0.3112, F1: 0.2646
+
+Epoch 33 Summary:
+  Hybrid - Loss: 0.8625/0.0194, Acc: 70.54%
+  Classical - Loss: 1.3034/0.0333, Acc: 31.12%
+  Resources - Hybrid: 38.78s, Classical: 85.73s
+==================================================
+
+
+=== Epoch 34/50 ===
+Epoch [34/50], Hybrid Train Loss: 0.8547
+  Training Resources - Time: 38.73s, CPU: -0.6%, Memory: 2.48GB
+Epoch [34/50], Hybrid Val Loss: 0.0203, Accuracy: 68.44%, Precision: 0.7133, Recall: 0.6844, F1: 0.6890
+Epoch [34/50], Classical Train Loss: 1.3048
+  Training Resources - Time: 86.34s, CPU: -4.8%, Memory: 2.49GB
+Epoch [34/50], Classical Val Loss: 0.0220, Accuracy: 59.70%, Precision: 0.6242, Recall: 0.5970, F1: 0.5895
+✨ Classical validation improved to 59.70%
+
+Epoch 34 Summary:
+  Hybrid - Loss: 0.8547/0.0203, Acc: 68.44%
+  Classical - Loss: 1.3048/0.0220, Acc: 59.70%
+  Resources - Hybrid: 38.73s, Classical: 86.34s
+==================================================
+
+
+=== Epoch 35/50 ===
+Epoch [35/50], Hybrid Train Loss: 0.8145
+  Training Resources - Time: 38.77s, CPU: -0.5%, Memory: 2.43GB
+Epoch [35/50], Hybrid Val Loss: 0.0191, Accuracy: 70.69%, Precision: 0.7117, Recall: 0.7069, F1: 0.7071
+✨ Hybrid validation improved to 70.69%
+Epoch [35/50], Classical Train Loss: 1.2784
+  Training Resources - Time: 88.81s, CPU: -4.5%, Memory: 2.51GB
+Epoch [35/50], Classical Val Loss: 0.0213, Accuracy: 61.00%, Precision: 0.6354, Recall: 0.6100, F1: 0.6020
+✨ Classical validation improved to 61.00%
+Adversarial Robustness (ε=0.1): 3.88%
+Adversarial Robustness (ε=0.1): 5.25%
+
+Epoch 35 Summary:
+  Hybrid - Loss: 0.8145/0.0191, Acc: 70.69%
+  Classical - Loss: 1.2784/0.0213, Acc: 61.00%
+  Resources - Hybrid: 38.77s, Classical: 88.81s
+==================================================
+
+
+=== Epoch 36/50 ===
+Epoch [36/50], Hybrid Train Loss: 0.7846
+  Training Resources - Time: 52.27s, CPU: 24.4%, Memory: 3.67GB
+Epoch [36/50], Hybrid Val Loss: 0.0189, Accuracy: 72.09%, Precision: 0.7295, Recall: 0.7209, F1: 0.7231
+✨ Hybrid validation improved to 72.09%
+Epoch [36/50], Classical Train Loss: 1.2776
+  Training Resources - Time: 117.08s, CPU: -1.8%, Memory: 3.69GB
+Epoch [36/50], Classical Val Loss: 0.0242, Accuracy: 53.46%, Precision: 0.5971, Recall: 0.5346, F1: 0.5324
+
+Epoch 36 Summary:
+  Hybrid - Loss: 0.7846/0.0189, Acc: 72.09%
+  Classical - Loss: 1.2776/0.0242, Acc: 53.46%
+  Resources - Hybrid: 52.27s, Classical: 117.08s
+==================================================
+
+
+=== Epoch 37/50 ===
+Epoch [37/50], Hybrid Train Loss: 0.7776
+  Training Resources - Time: 54.24s, CPU: 3.7%, Memory: 3.62GB
+Epoch [37/50], Hybrid Val Loss: 0.0192, Accuracy: 71.76%, Precision: 0.7226, Recall: 0.7176, F1: 0.7185
+Epoch [37/50], Classical Train Loss: 1.2701
+  Training Resources - Time: 147.65s, CPU: -8.5%, Memory: 3.80GB
+Epoch [37/50], Classical Val Loss: 0.0234, Accuracy: 56.09%, Precision: 0.5921, Recall: 0.5609, F1: 0.5340
+
+Epoch 37 Summary:
+  Hybrid - Loss: 0.7776/0.0192, Acc: 71.76%
+  Classical - Loss: 1.2701/0.0234, Acc: 56.09%
+  Resources - Hybrid: 54.24s, Classical: 147.65s
+==================================================
+
+
+=== Epoch 38/50 ===
+Epoch [38/50], Hybrid Train Loss: 0.7541
+  Training Resources - Time: 46.35s, CPU: 2.7%, Memory: 3.84GB
+Epoch [38/50], Hybrid Val Loss: 0.0188, Accuracy: 72.28%, Precision: 0.7257, Recall: 0.7228, F1: 0.7223
+✨ Hybrid validation improved to 72.28%
+Epoch [38/50], Classical Train Loss: 1.2584
+  Training Resources - Time: 140.52s, CPU: -12.6%, Memory: 4.03GB
+Epoch [38/50], Classical Val Loss: 0.0292, Accuracy: 46.79%, Precision: 0.6338, Recall: 0.4679, F1: 0.4439
+
+Epoch 38 Summary:
+  Hybrid - Loss: 0.7541/0.0188, Acc: 72.28%
+  Classical - Loss: 1.2584/0.0292, Acc: 46.79%
+  Resources - Hybrid: 46.35s, Classical: 140.52s
+==================================================
+
+
+=== Epoch 39/50 ===
+Epoch [39/50], Hybrid Train Loss: 0.7326
+  Training Resources - Time: 39.23s, CPU: 0.3%, Memory: 3.73GB
+Epoch [39/50], Hybrid Val Loss: 0.0193, Accuracy: 71.31%, Precision: 0.7210, Recall: 0.7131, F1: 0.7125
+Epoch [39/50], Classical Train Loss: 1.2523
+  Training Resources - Time: 151.67s, CPU: -0.5%, Memory: 3.90GB
+Epoch [39/50], Classical Val Loss: 0.0267, Accuracy: 48.25%, Precision: 0.6763, Recall: 0.4825, F1: 0.4901
+
+Epoch 39 Summary:
+  Hybrid - Loss: 0.7326/0.0193, Acc: 71.31%
+  Classical - Loss: 1.2523/0.0267, Acc: 48.25%
+  Resources - Hybrid: 39.23s, Classical: 151.67s
+==================================================
+
+
+=== Epoch 40/50 ===
+Epoch [40/50], Hybrid Train Loss: 0.7175
+  Training Resources - Time: 46.26s, CPU: 5.8%, Memory: 3.73GB
+Epoch [40/50], Hybrid Val Loss: 0.0190, Accuracy: 72.66%, Precision: 0.7304, Recall: 0.7266, F1: 0.7265
+✨ Hybrid validation improved to 72.66%
+Epoch [40/50], Classical Train Loss: 1.2504
+  Training Resources - Time: 174.09s, CPU: -5.4%, Memory: 3.91GB
+Epoch [40/50], Classical Val Loss: 0.0233, Accuracy: 54.36%, Precision: 0.5778, Recall: 0.5436, F1: 0.5102
+Adversarial Robustness (ε=0.1): 4.99%
+Adversarial Robustness (ε=0.1): 3.15%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+Epoch 40 Summary:
+  Hybrid - Loss: 0.7175/0.0190, Acc: 72.66%
+  Classical - Loss: 1.2504/0.0233, Acc: 54.36%
+  Resources - Hybrid: 46.26s, Classical: 174.09s
+==================================================
+
+
+=== Epoch 41/50 ===
+Epoch [41/50], Hybrid Train Loss: 0.6937
+  Training Resources - Time: 39.12s, CPU: -0.7%, Memory: 2.46GB
+Epoch [41/50], Hybrid Val Loss: 0.0193, Accuracy: 72.10%, Precision: 0.7313, Recall: 0.7210, F1: 0.7239
+Epoch [41/50], Classical Train Loss: 1.2241
+  Training Resources - Time: 184.97s, CPU: -5.7%, Memory: 2.43GB
+Epoch [41/50], Classical Val Loss: 0.0250, Accuracy: 52.15%, Precision: 0.6280, Recall: 0.5215, F1: 0.4962
+
+Epoch 41 Summary:
+  Hybrid - Loss: 0.6937/0.0193, Acc: 72.10%
+  Classical - Loss: 1.2241/0.0250, Acc: 52.15%
+  Resources - Hybrid: 39.12s, Classical: 184.97s
+==================================================
+
+
+=== Epoch 42/50 ===
+Epoch [42/50], Hybrid Train Loss: 0.6930
+  Training Resources - Time: 38.87s, CPU: 2.7%, Memory: 2.51GB
+Epoch [42/50], Hybrid Val Loss: 0.0185, Accuracy: 73.78%, Precision: 0.7418, Recall: 0.7377, F1: 0.7389
+✨ Hybrid validation improved to 73.78%
+Epoch [42/50], Classical Train Loss: 1.2414
+  Training Resources - Time: 214.02s, CPU: -5.2%, Memory: 2.49GB
+Epoch [42/50], Classical Val Loss: 0.0232, Accuracy: 54.96%, Precision: 0.6308, Recall: 0.5496, F1: 0.5150
+
+Epoch 42 Summary:
+  Hybrid - Loss: 0.6930/0.0185, Acc: 73.78%
+  Classical - Loss: 1.2414/0.0232, Acc: 54.96%
+  Resources - Hybrid: 38.87s, Classical: 214.02s
+==================================================
+
+
+=== Epoch 43/50 ===
+Epoch [43/50], Hybrid Train Loss: 0.6728
+  Training Resources - Time: 38.73s, CPU: 1.7%, Memory: 2.46GB
+Epoch [43/50], Hybrid Val Loss: 0.0185, Accuracy: 74.03%, Precision: 0.7417, Recall: 0.7402, F1: 0.7406
+✨ Hybrid validation improved to 74.03%
+Epoch [43/50], Classical Train Loss: 1.2303
+  Training Resources - Time: 232.29s, CPU: -5.1%, Memory: 2.46GB
+Epoch [43/50], Classical Val Loss: 0.0226, Accuracy: 55.81%, Precision: 0.6431, Recall: 0.5581, F1: 0.5423
+
+Epoch 43 Summary:
+  Hybrid - Loss: 0.6728/0.0185, Acc: 74.03%
+  Classical - Loss: 1.2303/0.0226, Acc: 55.81%
+  Resources - Hybrid: 38.73s, Classical: 232.29s
+==================================================
+
+
+=== Epoch 44/50 ===
+Epoch [44/50], Hybrid Train Loss: 0.6637
+  Training Resources - Time: 38.79s, CPU: 1.7%, Memory: 2.45GB
+Epoch [44/50], Hybrid Val Loss: 0.0186, Accuracy: 73.49%, Precision: 0.7353, Recall: 0.7349, F1: 0.7349
+Epoch [44/50], Classical Train Loss: 1.2292
+  Training Resources - Time: 259.37s, CPU: -5.2%, Memory: 2.41GB
+Epoch [44/50], Classical Val Loss: 0.0405, Accuracy: 32.76%, Precision: 0.5538, Recall: 0.3276, F1: 0.2410
+
+Epoch 44 Summary:
+  Hybrid - Loss: 0.6637/0.0186, Acc: 73.49%
+  Classical - Loss: 1.2292/0.0405, Acc: 32.76%
+  Resources - Hybrid: 38.79s, Classical: 259.37s
+==================================================
+
+
+=== Epoch 45/50 ===
+Epoch [45/50], Hybrid Train Loss: 0.6554
+  Training Resources - Time: 38.87s, CPU: 1.7%, Memory: 2.43GB
+Epoch [45/50], Hybrid Val Loss: 0.0188, Accuracy: 73.65%, Precision: 0.7400, Recall: 0.7365, F1: 0.7375
+Epoch [45/50], Classical Train Loss: 1.2203
+  Training Resources - Time: 284.40s, CPU: -5.1%, Memory: 2.42GB
+Epoch [45/50], Classical Val Loss: 0.0208, Accuracy: 63.76%, Precision: 0.6596, Recall: 0.6376, F1: 0.6362
+✨ Classical validation improved to 63.76%
+Adversarial Robustness (ε=0.1): 4.17%
+Adversarial Robustness (ε=0.1): 3.30%
+
+Epoch 45 Summary:
+  Hybrid - Loss: 0.6554/0.0188, Acc: 73.65%
+  Classical - Loss: 1.2203/0.0208, Acc: 63.76%
+  Resources - Hybrid: 38.87s, Classical: 284.40s
+==================================================
+
+
+=== Epoch 46/50 ===
+Epoch [46/50], Hybrid Train Loss: 0.6492
+  Training Resources - Time: 38.98s, CPU: 2.4%, Memory: 2.44GB
+Epoch [46/50], Hybrid Val Loss: 0.0186, Accuracy: 73.60%, Precision: 0.7372, Recall: 0.7360, F1: 0.7363
+Epoch [46/50], Classical Train Loss: 1.2033
+  Training Resources - Time: 314.91s, CPU: -5.2%, Memory: 2.47GB
+Epoch [46/50], Classical Val Loss: 0.0232, Accuracy: 56.14%, Precision: 0.6074, Recall: 0.5614, F1: 0.5213
+
+Epoch 46 Summary:
+  Hybrid - Loss: 0.6492/0.0186, Acc: 73.60%
+  Classical - Loss: 1.2033/0.0232, Acc: 56.14%
+  Resources - Hybrid: 38.98s, Classical: 314.91s
+==================================================
+
+
+=== Epoch 47/50 ===
+Epoch [47/50], Hybrid Train Loss: 0.6465
+  Training Resources - Time: 38.83s, CPU: 1.9%, Memory: 2.42GB
+Epoch [47/50], Hybrid Val Loss: 0.0185, Accuracy: 74.05%, Precision: 0.7428, Recall: 0.7405, F1: 0.7414
+✨ Hybrid validation improved to 74.05%
+Epoch [47/50], Classical Train Loss: 1.2001
+  Training Resources - Time: 335.14s, CPU: -5.1%, Memory: 2.44GB
+Epoch [47/50], Classical Val Loss: 0.0211, Accuracy: 61.96%, Precision: 0.6478, Recall: 0.6196, F1: 0.6079
+
+Epoch 47 Summary:
+  Hybrid - Loss: 0.6465/0.0185, Acc: 74.05%
+  Classical - Loss: 1.2001/0.0211, Acc: 61.96%
+  Resources - Hybrid: 38.83s, Classical: 335.14s
+==================================================
+
+
+=== Epoch 48/50 ===
+Epoch [48/50], Hybrid Train Loss: 0.6491
+  Training Resources - Time: 38.81s, CPU: 1.8%, Memory: 2.50GB
+Epoch [48/50], Hybrid Val Loss: 0.0185, Accuracy: 73.85%, Precision: 0.7430, Recall: 0.7385, F1: 0.7401
+Epoch [48/50], Classical Train Loss: 1.2193
+  Training Resources - Time: 349.85s, CPU: -5.3%, Memory: 2.43GB
+Epoch [48/50], Classical Val Loss: 0.0217, Accuracy: 60.35%, Precision: 0.6644, Recall: 0.6035, F1: 0.6005
+
+Epoch 48 Summary:
+  Hybrid - Loss: 0.6491/0.0185, Acc: 73.85%
+  Classical - Loss: 1.2193/0.0217, Acc: 60.35%
+  Resources - Hybrid: 38.81s, Classical: 349.85s
+==================================================
+
+
+=== Epoch 49/50 ===
+Epoch [49/50], Hybrid Train Loss: 0.6336
+  Training Resources - Time: 38.85s, CPU: 1.9%, Memory: 2.45GB
+Epoch [49/50], Hybrid Val Loss: 0.0187, Accuracy: 73.61%, Precision: 0.7378, Recall: 0.7361, F1: 0.7368
+Epoch [49/50], Classical Train Loss: 1.2009
+  Training Resources - Time: 358.84s, CPU: -5.3%, Memory: 2.51GB
+Epoch [49/50], Classical Val Loss: 0.0239, Accuracy: 53.40%, Precision: 0.5951, Recall: 0.5340, F1: 0.4868
+
+Epoch 49 Summary:
+  Hybrid - Loss: 0.6336/0.0187, Acc: 73.61%
+  Classical - Loss: 1.2009/0.0239, Acc: 53.40%
+  Resources - Hybrid: 38.85s, Classical: 358.84s
+==================================================
+
+
+=== Epoch 50/50 ===
+Epoch [50/50], Hybrid Train Loss: 0.6414
+  Training Resources - Time: 38.87s, CPU: 2.0%, Memory: 2.40GB
+Epoch [50/50], Hybrid Val Loss: 0.0188, Accuracy: 73.25%, Precision: 0.7335, Recall: 0.7325, F1: 0.7329
+Epoch [50/50], Classical Train Loss: 1.2286
+  Training Resources - Time: 375.77s, CPU: -5.2%, Memory: 2.40GB
+Epoch [50/50], Classical Val Loss: 0.0248, Accuracy: 53.24%, Precision: 0.5554, Recall: 0.5324, F1: 0.4985
+Adversarial Robustness (ε=0.1): 4.06%
+Adversarial Robustness (ε=0.1): 3.77%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+Epoch 50 Summary:
+  Hybrid - Loss: 0.6414/0.0188, Acc: 73.25%
+  Classical - Loss: 1.2286/0.0248, Acc: 53.24%
+  Resources - Hybrid: 38.87s, Classical: 375.77s
+==================================================
+
+
+===== GENERATING FINAL VISUALIZATIONS =====
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+===== FINAL TEST EVALUATION (UNSEEN DATA) =====
+
+Evaluating Best Hybrid Model on Test Set:
+Epoch [50/50], Hybrid_Test Val Loss: 0.0183, Accuracy: 75.03%, Precision: 0.7546, Recall: 0.7503, F1: 0.7521
+✨ Hybrid_Test validation improved to 75.03%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.565441..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.2791952..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3695886..1.2476891].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7010312..1.9147061].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.5458409..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.6833861..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3624471..2.1438825].
+
+Evaluating Best Classical Model on Test Set:
+Epoch [50/50], Classical_Test Val Loss: 0.0206, Accuracy: 64.35%, Precision: 0.6625, Recall: 0.6435, F1: 0.6421
+✨ Classical_Test validation improved to 64.35%
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.565441..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.2791952..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3695886..1.2476891].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7010312..1.9147061].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.7160968..2.1872468].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.5458409..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.6833861..2.1831644].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-1.3624471..2.1438825].
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+
+===== FINAL RESULTS =====
+Best Hybrid Validation Accuracy: 74.05%
+Best Classical Validation Accuracy: 63.76%
+
+===== GENERATED VISUALIZATIONS =====
+1. Sample images before training (sample_images_*.eps)
+2. Class distributions (class_distribution.eps)
+3. Training curves (training_curves_*.eps)
+4. Resource usage (resource_*.eps)
+5. Metric comparisons (metric_comparison.eps)
+6. Test results (test_results.eps)
+7. Confusion matrices (confusion_matrix_*.eps)
+8. Feature spaces (feature_space_*.eps)
+9. Class separation boundaries (class_separation_*.eps)
+10. Sample predictions (predictions_*.eps)
+11. Quantum circuit (quantum_circuit.eps)
+ICE default IO error handler doing an exit(), pid = 43698, errno = 32
